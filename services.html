@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore Fishila Business services: consulting, current-mapping, and kelp-based knowledge management.">
+  <title>Services • Fishila Business</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Fishila Business home">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 128 32" class="logo-svg">
+        <title>Fishila logo</title>
+        <path d="M2 16C18 -2 44 -2 62 16C44 34 18 34 2 16Z" />
+        <circle cx="18" cy="14" r="2" />
+        <path d="M62 16 L82 6 L82 26 Z" />
+      </svg>
+      <span class="brand">Fishila Business</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="navList">
+        <span class="visually-hidden">Toggle menu</span>☰
+      </button>
+      <ul id="navList" class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="container" tabindex="-1">
+
+  <section aria-labelledby="svc-heading">
+    <h1 id="svc-heading">Services</h1>
+    <p>From boutique brainstorming to enterprise-scale eel handling, we offer packages that scale.</p>
+
+    <div class="svc-layout">
+      <article class="service">
+        <h2>Current Mapping</h2>
+        <p>We analyze your market currents and plot the fastest route to results.</p>
+      </article>
+      <article class="service">
+        <h2>Kelp Knowledge Base</h2>
+        <p>A living, breathing wiki that sways with your org's tides.</p>
+      </article>
+      <article class="service">
+        <h2>Salmon Synchronization</h2>
+        <p>Team alignment workshops that feel more like friendly migrations.</p>
+      </article>
+    </div>
+
+    <!-- Special third-viewport "table view" appears between 880px and 1099px -->
+    <table class="svc-table" aria-describedby="svc-note">
+      <caption class="visually-hidden">Service comparison (visible in table view)</caption>
+      <thead>
+        <tr><th scope="col">Service</th><th scope="col">Includes</th><th scope="col">Timeline</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Current Mapping</th><td>Market currents, route plots</td><td>2 weeks</td></tr>
+        <tr><th scope="row">Kelp Knowledge Base</th><td>Setup, training, templates</td><td>1 month</td></tr>
+        <tr><th scope="row">Salmon Synchronization</th><td>Workshops, retros, playbooks</td><td>3 days</td></tr>
+      </tbody>
+    </table>
+    <p id="svc-note" class="note">Resize your browser around 900-1099px to see the table-focused layout kick in.</p>
+  </section>
+
+</main>
+<footer class="site-footer" role="contentinfo">
+  <div class="container footer-inner">
+    <p><strong>Fishila Business</strong> — Aquatic absurdities, professionally delivered.</p>
+    <p><span id="year"></span> • <button id="a11yToggle" class="a11y-toggle" type="button" aria-pressed="false">Accessibility Boost</button></p>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
